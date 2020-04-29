@@ -1,0 +1,7 @@
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_toolbox\bin\Debug\VER$ACE_toolbox.exe.config
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_toolbox\bin\Debug\VER$ACE_toolbox.exe
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_toolbox\bin\Debug\VER$ACE_toolbox.pdb
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_toolbox\obj\Debug\VER$ACE_toolbox.csprojAssemblyReference.cache
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_toolbox\obj\Debug\VER$ACE_toolbox.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_toolbox\obj\Debug\VER$ACE_toolbox.exe
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_toolbox\obj\Debug\VER$ACE_toolbox.pdb

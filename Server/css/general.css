@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 40px 0;
+    width: 400px;
+    padding: 10px 25px;
+    background: #0a0e31;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+    font-family: "Roboto";
+}
+
+#generate option,
+#generate select,
+#generate input[type="text"],
+#generate input[type="password"],
+#generate input[type="number"],
+#generate textarea {
+    width: 95%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#generate option:hover,
+#generate select:hover,
+#generate input:hover,
+#generate textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+
+.container button {
+    user-select: none;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 3px 0;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: "Roboto";
+    cursor: pointer;
+    transition: all 150ms ease;
+}
+
+.container fieldset {
+    outline: none;
+    border: transparent;
+}
+
+.container h3 {
+    color: white;
+    font-size: 25px;
+    margin: 10px -5px;
+    margin-bottom: 10px;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+th {
+	    color: white;
+}
+
+tr {
+	    color: white;
+}
+
+td {
+	    color: white;
+}
+
+.container h4 {
+    color: white;
+    font-size: 15px;
+    margin: 10px -5px;
+    margin-bottom: 5px;
+    font-family: "Roboto";
+    text-align: left;
+    margin-left: 15px;
+}
+
+#logoff h4 {
+    position: relative;
+    bottom: 29px;
+    color: white;
+    font-size: 10px;
+    font-family: "Roboto";
+    text-align: right;
+    margin: 15px;
+    margin-bottom: -10px;
+}

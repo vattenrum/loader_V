@@ -1,0 +1,13 @@
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\obj\Debug\VER$ACE_Loader.csprojAssemblyReference.cache
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\obj\Debug\versace_loader.Login.resources
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\obj\Debug\versace_loader.Forms.Main.resources
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\obj\Debug\VER$ACE_Loader.csproj.GenerateResource.cache
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\obj\Debug\VER$ACE_Loader.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\bin\Debug\VER$ACE.exe.config
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\bin\Debug\VER$ACE.exe
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\bin\Debug\VER$ACE.pdb
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\obj\Debug\VER$ACE_Loader.csproj.CopyComplete
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\obj\Debug\VER$ACE.exe
+C:\Users\Admin\Pictures\hack\csgo_etc\loaders\versace_loader-master\Client\VER$ACE_Loader\obj\Debug\VER$ACE.pdb

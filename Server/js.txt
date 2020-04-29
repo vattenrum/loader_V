@@ -1,0 +1,51 @@
+VER$ACE javascript api documentation
+
+execution location explanations:
+framestagenotify - called a lot, normally used for skinchanger
+createmove - called every server tick, used for legit aa, aimbot, general movement stuff
+painttraverse - called a normal amount, used for drawing stuff (esp)
+
+general functions:
+show_notification(string) -> void; prints a text notification in the top left of the screen
+current_username() -> string; returns a string of the current injected user
+print_to_console(string) -> void; prints a string to the csgo console
+execute_client_cmd(string) -> void; executes a csgo command (has restrictions)
+
+entity functions:
+get_max_clients() -> int; returns clients in game (this includes bots, dead, etc)
+get_ent_hp(int) -> int; returns entity health, takes a player index
+get_ent_dormant(int) -> bool; returns whether entity is dormant or not, takes a player index
+get_ent_eye_pos(int) -> float array size 3; returns a float array of entities eye pos, takes a player index
+get_ent_bot(int) -> bool; returns whether entity is a bot or not, takes a player index.
+get_ent_name(int) -> string; returns player's name, takes a players index
+get_ent_local_index() -> int; returns local player index
+get_ent_team(int) -> int; returns player's team, takes a players index
+get_ent_nullptr(int) -> bool; return whether a player is nullptr or not
+get_ent_flags(int) -> int; returns a player's flags (such as FL_ONGROUND, etc)
+
+createmove functions:
+set_view_angles(int array size 3) -> void; takes an int array of size 3 (XYZ) of angles to set. Sets CUserCmd->viewangles to this.
+local_jump() -> void; makes the local player jump
+local_crouch() -> void; makes the local player crouch
+cm_tickcount() -> int; gets createmove tickcount
+set_cm_tickcount(int) -> void; sets createmove tickcount to input (int)
+
+engine / globalvar functions:
+get_curtime() -> float; returns curtime
+get_in_game() -> bool; returns whether local player is in game
+set_clantag(string) -> void; sets local player clantag to input
+get_fsn_stage() -> int; gets current fsn stage
+
+paint functions:
+draw_line(int x0, int y0, int x1, int y1) -> void; draws a line from x0, y0 to x1, y1
+draw_set_color(int r, int g, int b, int a) -> void; sets next drawing function color to input
+draw_set_text_color(int r, int g, int b, int a) -> void; sets next text drawing function color to input
+draw_text(int x, int y, string to_draw) -> void; draws a string at (x, y) (screen coords)
+draw_filled_rect(int x0, int y0, int x1, int y1) -> void; draws a rect from x0, y0 to x1, y1
+draw_circle(int x, int y, int radius, int segments); -> void; draws a circle at (x, y) (screen coords) with radius. segments is "smoothness" of circle
+
+user input functions:
+get_cursor_pos() -> int array size 2; returns (x, y) of mouse (screen coords)
+get_key_state(int) -> bool; returns whether a key is clicked or not. (https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
+get_async_key_state(int) -> bool; returns whether a key is held or not. (https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
+play_sound(string) -> void; plays a sound from input path (async)

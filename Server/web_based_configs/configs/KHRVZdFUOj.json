@@ -1,0 +1,682 @@
+{
+  "aimbot": {
+    "aim_chance": false,
+    "aim_chance_percent": 0,
+    "aimbot_target_enemy": true,
+    "aimbot_target_team": false,
+    "autoscope": false,
+    "autoshoot": false,
+    "autowall": false,
+    "autowall_dmg": 10,
+    "cooldown": true,
+    "cooldown_time": 200,
+    "enabled": false,
+    "flash_check": true,
+    "fov": 1.2999999523162842,
+    "get_best_backtrack_tick": false,
+    "get_best_hitbox": true,
+    "hitbox": 0,
+    "jumping": false,
+    "key": 0,
+    "on_attack": false,
+    "reaction": false,
+    "reaction_time": 0,
+    "shots": 0,
+    "silent_aim": false,
+    "smoke_check": true,
+    "smooth": 0.75900006294250488,
+    "speed": 0,
+    "speed_limit": false,
+    "vis_check": true
+  },
+  "backtrack": {
+    "chams": true,
+    "chams_skip_lc_breaker": false,
+    "chams_styles": 1,
+    "enabled": true,
+    "key": 0,
+    "max_dist": 64,
+    "skeleton": true,
+    "skip_lc_breaker": true,
+    "ticks": 6
+  },
+  "chams": {
+    "enabled": false,
+    "enemy": true,
+    "flat": false,
+    "glass": false,
+    "ignorez": true,
+    "local": true,
+    "metallic": true,
+    "team": true,
+    "wireframe": false
+  },
+  "color": {
+    "aimbot_target_text": {
+      "A": 255,
+      "B": 128,
+      "G": 255,
+      "R": 0
+    },
+    "autowall_crosshair": {
+      "A": 150,
+      "B": 170,
+      "G": 0,
+      "R": 0
+    },
+    "backtrack_skeletonenemy": {
+      "A": 255,
+      "B": 183,
+      "G": 0,
+      "R": 95
+    },
+    "backtrack_skeletonlocal": {
+      "A": 255,
+      "B": 0,
+      "G": 0,
+      "R": 255
+    },
+    "backtrack_skeletonteam": {
+      "A": 255,
+      "B": 0,
+      "G": 0,
+      "R": 255
+    },
+    "beam_decoy": {
+      "A": 255,
+      "B": 128,
+      "G": 255,
+      "R": 0
+    },
+    "beam_molotov": {
+      "A": 255,
+      "B": 128,
+      "G": 255,
+      "R": 0
+    },
+    "beam_smoke": {
+      "A": 255,
+      "B": 128,
+      "G": 255,
+      "R": 0
+    },
+    "bullet_beam_enemy": {
+      "A": 0,
+      "B": 0,
+      "G": 0,
+      "R": 0
+    },
+    "bullet_beam_local": {
+      "A": 255,
+      "B": 204,
+      "G": 0,
+      "R": 255
+    },
+    "bullet_beam_team": {
+      "A": 255,
+      "B": 255,
+      "G": 255,
+      "R": 255
+    },
+    "bullet_impact_enemy": {
+      "A": 0,
+      "B": 0,
+      "G": 0,
+      "R": 0
+    },
+    "bullet_impact_local": {
+      "A": 255,
+      "B": 204,
+      "G": 0,
+      "R": 255
+    },
+    "bullet_impact_team": {
+      "A": 255,
+      "B": 255,
+      "G": 255,
+      "R": 255
+    },
+    "chams_backtrack_enemy_occluded": {
+      "A": 130,
+      "B": 0,
+      "G": 107,
+      "R": 255
+    },
+    "chams_backtrack_enemy_visible": {
+      "A": 130,
+      "B": 0,
+      "G": 0,
+      "R": 255
+    },
+    "chams_backtrack_local_visible": {
+      "A": 0,
+      "B": 0,
+      "G": 0,
+      "R": 0
+    },
+    "chams_backtrack_team_occluded": {
+      "A": 130,
+      "B": 0,
+      "G": 130,
+      "R": 0
+    },
+    "chams_backtrack_team_visible": {
+      "A": 130,
+      "B": 255,
+      "G": 128,
+      "R": 0
+    },
+    "chams_enemy_occluded": {
+      "A": 255,
+      "B": 0,
+      "G": 107,
+      "R": 255
+    },
+    "chams_enemy_visible": {
+      "A": 255,
+      "B": 0,
+      "G": 0,
+      "R": 255
+    },
+    "chams_local_visible": {
+      "A": 255,
+      "B": 204,
+      "G": 0,
+      "R": 255
+    },
+    "chams_team_occluded": {
+      "A": 255,
+      "B": 0,
+      "G": 130,
+      "R": 0
+    },
+    "chams_team_visible": {
+      "A": 255,
+      "B": 255,
+      "G": 128,
+      "R": 0
+    },
+    "defusing_bar": {
+      "A": 150,
+      "B": 170,
+      "G": 0,
+      "R": 0
+    },
+    "esp_c4": {
+      "A": 255,
+      "B": 0,
+      "G": 255,
+      "R": 255
+    },
+    "esp_enemy_occluded": {
+      "A": 255,
+      "B": 0,
+      "G": 107,
+      "R": 255
+    },
+    "esp_enemy_visible": {
+      "A": 255,
+      "B": 183,
+      "G": 0,
+      "R": 95
+    },
+    "esp_local_visible": {
+      "A": 255,
+      "B": 204,
+      "G": 0,
+      "R": 255
+    },
+    "esp_team_occluded": {
+      "A": 255,
+      "B": 0,
+      "G": 130,
+      "R": 0
+    },
+    "esp_team_visible": {
+      "A": 255,
+      "B": 255,
+      "G": 128,
+      "R": 0
+    },
+    "footstep_beams_enemy": {
+      "A": 255,
+      "B": 0,
+      "G": 0,
+      "R": 255
+    },
+    "footstep_beams_local": {
+      "A": 255,
+      "B": 204,
+      "G": 0,
+      "R": 255
+    },
+    "footstep_beams_team": {
+      "A": 255,
+      "B": 255,
+      "G": 128,
+      "R": 0
+    },
+    "fov_ring": {
+      "A": 150,
+      "B": 1,
+      "G": 1,
+      "R": 251
+    },
+    "glow_c4": {
+      "A": 255,
+      "B": 128,
+      "G": 255,
+      "R": 0
+    },
+    "glow_enemy_occluded": {
+      "A": 255,
+      "B": 0,
+      "G": 107,
+      "R": 255
+    },
+    "glow_enemy_visible": {
+      "A": 255,
+      "B": 0,
+      "G": 0,
+      "R": 255
+    },
+    "glow_team_occluded": {
+      "A": 255,
+      "B": 0,
+      "G": 130,
+      "R": 0
+    },
+    "glow_team_visible": {
+      "A": 255,
+      "B": 255,
+      "G": 128,
+      "R": 0
+    },
+    "glow_weapons": {
+      "A": 255,
+      "B": 255,
+      "G": 128,
+      "R": 0
+    },
+    "hitmarker": {
+      "A": 255,
+      "B": 204,
+      "G": 0,
+      "R": 255
+    },
+    "hitmarker_text": {
+      "A": 255,
+      "B": 204,
+      "G": 0,
+      "R": 255
+    },
+    "hud_features_box": {
+      "A": 70,
+      "B": 135,
+      "G": 135,
+      "R": 135
+    },
+    "hud_features_text": {
+      "A": 255,
+      "B": 255,
+      "G": 255,
+      "R": 255
+    },
+    "hurt_hitboxes": {
+      "A": 255,
+      "B": 128,
+      "G": 255,
+      "R": 0
+    },
+    "offscreen_esp": {
+      "A": 255,
+      "B": 255,
+      "G": 255,
+      "R": 255
+    },
+    "origin_box": {
+      "A": 70,
+      "B": 135,
+      "G": 135,
+      "R": 135
+    },
+    "planting_bar": {
+      "A": 150,
+      "B": 170,
+      "G": 0,
+      "R": 0
+    },
+    "spread_crosshair": {
+      "A": 255,
+      "B": 128,
+      "G": 255,
+      "R": 0
+    },
+    "taser_range": {
+      "A": 255,
+      "B": 255,
+      "G": 255,
+      "R": 255
+    },
+    "viewangles_enemy": {
+      "A": 150,
+      "B": 0,
+      "G": 0,
+      "R": 170
+    },
+    "viewangles_local": {
+      "A": 150,
+      "B": 0,
+      "G": 0,
+      "R": 170
+    },
+    "viewangles_team": {
+      "A": 150,
+      "B": 0,
+      "G": 0,
+      "R": 170
+    },
+    "walkbot_etc": {
+      "A": 150,
+      "B": 170,
+      "G": 0,
+      "R": 0
+    },
+    "walkbot_next": {
+      "A": 150,
+      "B": 0,
+      "G": 255,
+      "R": 0
+    }
+  },
+  "esp": {
+    "aimbot_target": false,
+    "ammo_bar": false,
+    "armor": false,
+    "armor_fractional": false,
+    "armor_thick": 3,
+    "bomb_carrier": false,
+    "bomb_defusing_bar": false,
+    "bomb_planting_bar": false,
+    "boxes": false,
+    "bullet_beams": false,
+    "bullet_beams_enemy": false,
+    "bullet_beams_lifetime": 2,
+    "bullet_beams_local": true,
+    "bullet_beams_size": 3,
+    "bullet_beams_team": false,
+    "bullet_beams_type": 0,
+    "bullet_impacts": false,
+    "bullet_impacts_enemy": false,
+    "bullet_impacts_lifetime": 2,
+    "bullet_impacts_local": true,
+    "bullet_impacts_size": 0,
+    "bullet_impacts_team": false,
+    "crosshair": false,
+    "distance": false,
+    "distance_style": 0,
+    "enabled": true,
+    "enemy": true,
+    "farther": true,
+    "footstep_beams": false,
+    "has_defuse_kit": false,
+    "health": true,
+    "health_fractional": true,
+    "health_thick": 2,
+    "hitmarkers": true,
+    "hitmarkers_bt_tick": true,
+    "hitmarkers_show_hitbox": true,
+    "hitmarkers_style": 0,
+    "hurt_hitboxes": false,
+    "hurt_hitboxes_duration": 1,
+    "key": 0,
+    "local": false,
+    "money": false,
+    "names": true,
+    "offscreen": false,
+    "offscreen_triangle_height": 10,
+    "offscreen_triangle_width": 21,
+    "origin_box": true,
+    "origin_box_size": 7,
+    "origin_box_style": 1,
+    "planted_c4": true,
+    "skeleton": false,
+    "snaplines": false,
+    "team": false,
+    "viewangles": false,
+    "viewangles_length": 400,
+    "vulnerabilities": false,
+    "weapons": true
+  },
+  "glow": {
+    "enabled": false,
+    "key": 0,
+    "others": true,
+    "others_style": 0,
+    "players": true
+  },
+  "misc": {
+    "anti_votekick": false,
+    "auto_derank": false,
+    "autostrafe": true,
+    "autostrafe_type": 0,
+    "autowall_damage": false,
+    "bhop": true,
+    "bhop_chance": 100,
+    "chatspam": false,
+    "clantag_changer": false,
+    "custom_models": false,
+    "draw_grenade_path": false,
+    "draw_hud_features": false,
+    "draw_hud_features_box": false,
+    "edge_jump": false,
+    "edge_jump_crouch": false,
+    "fake_duck": false,
+    "fov_ring": true,
+    "grenade_circles": false,
+    "hide_ambient_sounds": false,
+    "hide_names": false,
+    "infinite_duck": false,
+    "jumps_tick": 11,
+    "legit_aa": false,
+    "legit_aa_ang": 58,
+    "legit_aa_break_lby": false,
+    "legit_aa_break_lby_dist": 135,
+    "legit_aa_fakelag": false,
+    "legit_aa_fakelag_amount": 10,
+    "legit_aa_pitch": false,
+    "legit_aa_pitch_val": 89,
+    "legit_aa_slide_fix": false,
+    "menu_snow": false,
+    "menu_sounds": true,
+    "nightmode": false,
+    "nightmode_general": 0.10200000554323196,
+    "nightmode_props": 0.23700001835823059,
+    "no_flash": false,
+    "no_smoke": false,
+    "no_smoke_wireframe": false,
+    "notifications_hurt": false,
+    "override_fov": 90,
+    "override_viewmodel_fov": 1,
+    "quickswitch_after_shot": false,
+    "radar": false,
+    "ragdoll_launcher": false,
+    "ragdoll_launcher_multiplier": 2,
+    "rank_reveal": false,
+    "rcs": true,
+    "rcs_amount": 2,
+    "remove_scope": false,
+    "silent_walk": false,
+    "skybox_number": 15,
+    "sonar": false,
+    "spec_list": true,
+    "spread_crosshair": false,
+    "taser_range": false,
+    "third_person": false,
+    "thirdperson_dist": 500
+  },
+  "resolver": {
+    "legit_aa_normal": false,
+    "legit_aa_resolver_type": 0,
+    "predict_lby_update": false
+  },
+  "skinchanger": {
+    "enabled": true,
+    "skin_WEAPON_AK47_seed": 1,
+    "skin_WEAPON_AK47_skin_id": 675,
+    "skin_WEAPON_AK47_wear": 0,
+    "skin_WEAPON_AUG_seed": 0,
+    "skin_WEAPON_AUG_skin_id": 0,
+    "skin_WEAPON_AUG_wear": 0,
+    "skin_WEAPON_AWP_seed": 1,
+    "skin_WEAPON_AWP_skin_id": 344,
+    "skin_WEAPON_AWP_wear": 0,
+    "skin_WEAPON_BIZON_seed": 1,
+    "skin_WEAPON_BIZON_skin_id": 676,
+    "skin_WEAPON_BIZON_wear": 0,
+    "skin_WEAPON_C4_seed": 0,
+    "skin_WEAPON_C4_skin_id": 0,
+    "skin_WEAPON_C4_wear": 0,
+    "skin_WEAPON_CZ75A_seed": 0,
+    "skin_WEAPON_CZ75A_skin_id": 0,
+    "skin_WEAPON_CZ75A_wear": 0,
+    "skin_WEAPON_DEAGLE_seed": 1,
+    "skin_WEAPON_DEAGLE_skin_id": 415,
+    "skin_WEAPON_DEAGLE_wear": 0,
+    "skin_WEAPON_DECOY_seed": 0,
+    "skin_WEAPON_DECOY_skin_id": 0,
+    "skin_WEAPON_DECOY_wear": 0,
+    "skin_WEAPON_ELITE_seed": 0,
+    "skin_WEAPON_ELITE_skin_id": 0,
+    "skin_WEAPON_ELITE_wear": 0,
+    "skin_WEAPON_FAMAS_seed": 0,
+    "skin_WEAPON_FAMAS_skin_id": 0,
+    "skin_WEAPON_FAMAS_wear": 0,
+    "skin_WEAPON_FIVESEVEN_seed": 0,
+    "skin_WEAPON_FIVESEVEN_skin_id": 0,
+    "skin_WEAPON_FIVESEVEN_wear": 0,
+    "skin_WEAPON_FLASHBANG_seed": 0,
+    "skin_WEAPON_FLASHBANG_skin_id": 0,
+    "skin_WEAPON_FLASHBANG_wear": 0,
+    "skin_WEAPON_G3SG1_seed": 0,
+    "skin_WEAPON_G3SG1_skin_id": 0,
+    "skin_WEAPON_G3SG1_wear": 0,
+    "skin_WEAPON_GALILAR_seed": 0,
+    "skin_WEAPON_GALILAR_skin_id": 0,
+    "skin_WEAPON_GALILAR_wear": 0,
+    "skin_WEAPON_GLOCK_seed": 0,
+    "skin_WEAPON_GLOCK_skin_id": 0,
+    "skin_WEAPON_GLOCK_wear": 0,
+    "skin_WEAPON_HEGRENADE_seed": 0,
+    "skin_WEAPON_HEGRENADE_skin_id": 0,
+    "skin_WEAPON_HEGRENADE_wear": 0,
+    "skin_WEAPON_HKP2000_seed": 1,
+    "skin_WEAPON_HKP2000_skin_id": 415,
+    "skin_WEAPON_HKP2000_wear": 0,
+    "skin_WEAPON_INCGRENADE_seed": 0,
+    "skin_WEAPON_INCGRENADE_skin_id": 0,
+    "skin_WEAPON_INCGRENADE_wear": 0,
+    "skin_WEAPON_KNIFE_T_seed": 0,
+    "skin_WEAPON_KNIFE_T_skin_id": 0,
+    "skin_WEAPON_KNIFE_T_wear": 0,
+    "skin_WEAPON_KNIFE_seed": 0,
+    "skin_WEAPON_KNIFE_skin_id": 0,
+    "skin_WEAPON_KNIFE_wear": 0,
+    "skin_WEAPON_M249_seed": 0,
+    "skin_WEAPON_M249_skin_id": 0,
+    "skin_WEAPON_M249_wear": 0,
+    "skin_WEAPON_M4A1_SILENCER_seed": 0,
+    "skin_WEAPON_M4A1_SILENCER_skin_id": 0,
+    "skin_WEAPON_M4A1_SILENCER_wear": 0,
+    "skin_WEAPON_M4A1_seed": 0,
+    "skin_WEAPON_M4A1_skin_id": 309,
+    "skin_WEAPON_M4A1_wear": 0,
+    "skin_WEAPON_MAC10_seed": 0,
+    "skin_WEAPON_MAC10_skin_id": 0,
+    "skin_WEAPON_MAC10_wear": 0,
+    "skin_WEAPON_MAG7_seed": 0,
+    "skin_WEAPON_MAG7_skin_id": 0,
+    "skin_WEAPON_MAG7_wear": 0,
+    "skin_WEAPON_MOLOTOV_seed": 0,
+    "skin_WEAPON_MOLOTOV_skin_id": 0,
+    "skin_WEAPON_MOLOTOV_wear": 0,
+    "skin_WEAPON_MP5_seed": 1,
+    "skin_WEAPON_MP5_skin_id": 415,
+    "skin_WEAPON_MP5_wear": 0,
+    "skin_WEAPON_MP7_seed": 0,
+    "skin_WEAPON_MP7_skin_id": 0,
+    "skin_WEAPON_MP7_wear": 0,
+    "skin_WEAPON_MP9_seed": 0,
+    "skin_WEAPON_MP9_skin_id": 0,
+    "skin_WEAPON_MP9_wear": 0,
+    "skin_WEAPON_NEGEV_seed": 0,
+    "skin_WEAPON_NEGEV_skin_id": 0,
+    "skin_WEAPON_NEGEV_wear": 0,
+    "skin_WEAPON_NOVA_seed": 0,
+    "skin_WEAPON_NOVA_skin_id": 0,
+    "skin_WEAPON_NOVA_wear": 0,
+    "skin_WEAPON_P250_seed": 1,
+    "skin_WEAPON_P250_skin_id": 295,
+    "skin_WEAPON_P250_wear": 0,
+    "skin_WEAPON_P90_seed": 0,
+    "skin_WEAPON_P90_skin_id": 0,
+    "skin_WEAPON_P90_wear": 0,
+    "skin_WEAPON_REVOLVER_seed": 0,
+    "skin_WEAPON_REVOLVER_skin_id": 0,
+    "skin_WEAPON_REVOLVER_wear": 0,
+    "skin_WEAPON_SAWEDOFF_seed": 0,
+    "skin_WEAPON_SAWEDOFF_skin_id": 0,
+    "skin_WEAPON_SAWEDOFF_wear": 0,
+    "skin_WEAPON_SCAR20_seed": 1,
+    "skin_WEAPON_SCAR20_skin_id": 597,
+    "skin_WEAPON_SCAR20_wear": 0,
+    "skin_WEAPON_SG556_seed": 0,
+    "skin_WEAPON_SG556_skin_id": 0,
+    "skin_WEAPON_SG556_wear": 0,
+    "skin_WEAPON_SMOKEGRENADE_seed": 0,
+    "skin_WEAPON_SMOKEGRENADE_skin_id": 0,
+    "skin_WEAPON_SMOKEGRENADE_wear": 0,
+    "skin_WEAPON_SSG08_seed": 1,
+    "skin_WEAPON_SSG08_skin_id": 624,
+    "skin_WEAPON_SSG08_wear": 0,
+    "skin_WEAPON_TASER_seed": 0,
+    "skin_WEAPON_TASER_skin_id": 0,
+    "skin_WEAPON_TASER_wear": 0,
+    "skin_WEAPON_TEC9_seed": 0,
+    "skin_WEAPON_TEC9_skin_id": 0,
+    "skin_WEAPON_TEC9_wear": 0,
+    "skin_WEAPON_UMP45_seed": 0,
+    "skin_WEAPON_UMP45_skin_id": 0,
+    "skin_WEAPON_UMP45_wear": 0,
+    "skin_WEAPON_USP_SILENCER_seed": 0,
+    "skin_WEAPON_USP_SILENCER_skin_id": 415,
+    "skin_WEAPON_USP_SILENCER_wear": 0,
+    "skin_WEAPON_XM1014_seed": 0,
+    "skin_WEAPON_XM1014_skin_id": 0,
+    "skin_WEAPON_XM1014_wear": 0
+  },
+  "trigger": {
+    "at_backtrack": true,
+    "delay": 0,
+    "enabled": true,
+    "hitbox_chest": true,
+    "hitbox_gear": false,
+    "hitbox_generic": false,
+    "hitbox_head": true,
+    "hitbox_left arm": true,
+    "hitbox_left leg": true,
+    "hitbox_right arm": true,
+    "hitbox_right leg": true,
+    "hitbox_stomach": true,
+    "key": 67,
+    "shoot_at_enemy": true,
+    "shoot_at_team": false
+  },
+  "walkbot": {
+    "adaptive": false,
+    "add_key": 0,
+    "enabled": false,
+    "erase_key": 0,
+    "walk": false
+  }
+}
