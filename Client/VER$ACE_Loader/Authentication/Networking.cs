@@ -15,7 +15,7 @@ namespace versace_loader
 {
     class Networking
     {
-        public static string base_url = "https://versacehack.xyz/authentication/";
+        public static string base_url = "https://localhost/authentication/";
         public static string build_username = "[USERNAME]";
         public static string loader_hash = "";
         public static void set_hash(string hash)

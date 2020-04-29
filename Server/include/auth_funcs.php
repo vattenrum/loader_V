@@ -70,7 +70,7 @@ function is_valid_hash($conn, $hash, $user)
     $rb_results = $recent_build->fetch();
     if($rb_results["hash"] != $hash)
     {
-        $response = array('status' => 'update', 'detail' => "https://versacehack.xyz/polymorphic/builds/" . $rb_results["file_name"]);
+        $response = array('status' => 'update', 'detail' => "https://localhost/polymorphic/builds/" . $rb_results["file_name"]);
 		return json_encode($response);
     }
 	
